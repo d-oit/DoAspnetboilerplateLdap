@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>DoAspnetboilerplateLdap.Migrator</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>DoAspnetboilerplateLdap.Migrator</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="appsettings.json;log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.Castle.Log4Net" Version="5.8.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DoAspnetboilerplateLdap.Core\DoAspnetboilerplateLdap.Core.csproj" />
+    <ProjectReference Include="..\DoAspnetboilerplateLdap.EntityFrameworkCore\DoAspnetboilerplateLdap.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+</Project>
