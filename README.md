@@ -2,8 +2,8 @@
 
 This sample use Novell.Directory.Ldap for the ladp connection as additional option.
 
-Check out https://github.com/dotnet/runtime/issues/23944 - atm .net core 3 has no 
-Support System.DirectoryServices.Protocols on Linux/Mac
+Check out https://github.com/dotnet/runtime/issues/23944 - (05/2020) .NET Core has no 
+Support **System.DirectoryServices.Protocols** on Linux/Mac
 
 The sample use the OpenLdap from
 https://www.forumsys.com/tutorials/integration-how-to/ldap/online-ldap-test-server/ 
@@ -78,42 +78,3 @@ Run the mvc project and test with:
 **User:** riemann
 
 Any password.
-
-
-# Important
-
-Issues of this repository are tracked on https://github.com/aspnetboilerplate/aspnetboilerplate. Please create your issues on https://github.com/aspnetboilerplate/aspnetboilerplate/issues.
-
-# Introduction
-
-This is a template to create **ASP.NET Core MVC / Angular** based startup projects for [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents). It has 2 different versions:
-
-1. [ASP.NET Core MVC & jQuery](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core) (server rendered multi-page application).
-2. [ASP.NET Core & Angular](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular) (single page application).
- 
-User Interface is based on [BSB Admin theme](https://github.com/gurayyarar/AdminBSBMaterialDesign).
- 
-# Download
-
-Create & download your project from https://aspnetboilerplate.com/Templates
-
-# Screenshots
-
-#### Sample Dashboard Page
-![](_screenshots/module-zero-core-template-ui-home.png)
-
-#### User Creation Modal
-![](_screenshots/module-zero-core-template-ui-user-create-modal.png)
-
-#### Login Page
-
-![](_screenshots/module-zero-core-template-ui-login.png)
-
-# Documentation
-
-* [ASP.NET Core MVC & jQuery version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core)
-* [ASP.NET Core & Angular  version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular)
-
-# License
-
-[MIT](LICENSE).
